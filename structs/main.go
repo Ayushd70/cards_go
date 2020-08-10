@@ -21,11 +21,15 @@ func main() {
 	ayush := person{
 		firstName: "Ayush",
 		lastName:  "Dubey",
-		contact: contactInfo{
+		contactInfo: contactInfo{
 			email:   "ayushdubey70@gmail.com",
 			zipCode: 700002,
 		},
 	}
 
-	fmt.Printf("%+v", ayush)
+	ayush.print()
+}
+
+func (p person) print() {
+	fmt.Printf("%+v", p)
 }

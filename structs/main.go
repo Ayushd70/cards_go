@@ -10,7 +10,11 @@ type contactInfo struct {
 type person struct {
 	firstName string
 	lastName  string
-	contact   contactInfo
+	/*
+		Just using contactInfo is same equlivaled to contact of type  contactInfo,
+		Using contactInfo  declares a field name  contactInfo of type contactInfo
+	*/
+	contactInfo
 }
 
 func main() {

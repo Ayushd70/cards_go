@@ -27,8 +27,7 @@ func main() {
 		},
 	}
 
-	ayushPointer := &ayush
-	ayushPointer.updateName("ayushd70")
+	ayush.updateName("ayushd70")
 	ayush.print()
 }
 

@@ -1,0 +1,17 @@
+// Some Important Stuffs
+
+Types of Data:
+
+- Values Types (Use pointers to change these things in a function)
+*int
+*float
+*string
+*bool
+*structs
+
+- Reference Types (Don't worry about pointers these)
+*slices
+*maps
+*channels
+*pointers
+*function

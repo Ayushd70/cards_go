@@ -12,5 +12,7 @@ func main() {
 	// 	"green": "#4bf745",
 	// }
 
+	colors["white"] = "ffffff"
+
 	fmt.Println(colors)
 }

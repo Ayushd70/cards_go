@@ -15,3 +15,11 @@ Types of Data:
 *channels
 *pointers
 *function
+
+Concrete Types(Create a value out of directly and access,change it ,make a copy)
+*maps
+*structs
+*int
+*string
+
+Interface(cannot create a value out of it directly)

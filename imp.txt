@@ -16,10 +16,15 @@ Types of Data:
 *pointers
 *function
 
-Concrete Types(Create a value out of directly and access,change it ,make a copy)
+- Concrete Types(Create a value out of directly and access,change it ,make a copy)
 *maps
 *structs
 *int
 *string
 
-Interface(cannot create a value out of it directly)
+- Interface Types(cannot create a value out of it directly)
+
+- Interface (Some Imp Stuffs)
+* Interaces are not generic types
+*Interacesare implict
+*Interaces are a contract to help us manage types

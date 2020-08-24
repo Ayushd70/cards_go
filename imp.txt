@@ -3,28 +3,28 @@
 Types of Data:
 
 - Values Types (Use pointers to change these things in a function)
-*int
-*float
-*string
-*bool
-*structs
+* int
+* float
+* string
+* bool
+* structs
 
 - Reference Types (Don't worry about pointers these)
-*slices
-*maps
-*channels
-*pointers
-*function
+* slices
+* maps
+* channels
+* pointers
+* function
 
 - Concrete Types(Create a value out of directly and access,change it ,make a copy)
-*maps
-*structs
-*int
-*string
+* maps
+* structs
+* int
+* string
 
 - Interface Types(cannot create a value out of it directly)
 
-- Interface (Some Imp Stuffs)
-* Interaces are not generic types
-*Interacesare implict
-*Interaces are a contract to help us manage types
+- Interfaces (Some Imp Stuffs)
+* Interfaces are not generic types
+* Interfaces are implict
+* Interfaces are a contract to help us manage types
